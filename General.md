@@ -4,16 +4,18 @@
 
 **EXPRESSCLUSTER is a software that provides high availability and disaster recovery to prevent system downtime and data loss, ultimately saving time and money.**
 
-Automate the detection and recovery of failures in critical IT systems.
+Automate failure detection and recovery in critical IT systems.
 
-- Monitoring and recovering from all types of failures (storage, network, OS, Application etc.)
-- Achieving zero data loss on any failures and disasters
-- Enabling low cost software solution without shared SAN storage
-- Operation track record with 200+ applications
-- Disaster recovery track record of 1000+ km
+- Monitor and recover from all types of failures (storage, network, OS, application).
+- Achieve zero data loss on any failures and disasters.
+- Enable low-cost software solution without shared SAN storage.
+- Productize with 200+ applications.
+- Achieve 1000+ km disaster recovery in production.
 
 ## Qualifying questions
 
-- Do you have a system that needs to be up and running 24/7?
-- When you happen to restore a backup in the event of a failure or disaster, you will lose the data accumulated since the last backup. Do you have any data that cannot afford such a loss?
-- You might have redundancy and monitoring for hardware components like storage (RAID) and network (NIC teaming). Do you have the redundancy for software components such as the OS and applications?
+- Do you need a system to run 24/7?
+- Do you have data that must not be lost, no matter what the situation?
+  - Just protecting data with backup results in data loss due to changes made after the previous backup.
+- Do you have the redundancy and monitoring for software components such as the OS and applications?
+  - You may have redundancy and monitoring for hardware components like storage (RAID) and network (NIC teaming).
