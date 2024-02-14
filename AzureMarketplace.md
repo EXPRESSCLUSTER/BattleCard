@@ -1,13 +1,13 @@
-# EXPRESSCLUSTER on Azure Marketplace Battle Card
+# EXPRESSCLUSTER on Cloud
 
-This is specific to EC on Azure Marketplace. The general battle card is [General.md](General.md)
+This is specific to EC on Cloud. The general battle card is [General.md](General.md)
 
 ## Elevator pitch
 
 Achieve less downtime than cloud vendors offer.
 
-| ECX                           | 5 minutes (99.999%) |
-|--                             |--                   |
+| ECX                           | 5 minutes (99.999% availability) |
+|:--                             |--                   |
 | Azure VM, AWS EC2             | 4.4 hours (99.95%)  |
 | Azure Site Recovery           | 2 hours (99.98%)    |
 | AWS Elastic Disaster Recovery | no guarantees       |
@@ -21,7 +21,7 @@ Achieve financial flexibility with flexible payment options for BCP[^1].
 
 Achieve flexible configurations.
 
-- Standby or Backup VM on cloud for on-premise production server.
+- Standby or Backup VM on cloud for on-premise production server
 - Active and Standby VMs on cloud
 
 ## Qualifying questions
