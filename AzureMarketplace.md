@@ -4,24 +4,31 @@ This is specific to EC on Azure Marketplace. The general battle card is [General
 
 ## Elevator pitch
 
-Achieves availability that exceeds the 99.99% availability provided by cloud vendors.
+Achieve less downtime than cloud vendors offer.
 
-Cost reduction for hardware and its management.
+| ECX                           | 5 minutes (99.999%) |
+|--                             |--                   |
+| Azure VM, AWS EC2             | 4.4 hours (99.95%)  |
+| Azure Site Recovery           | 2 hours (99.98%)    |
+| AWS Elastic Disaster Recovery | no guarantees       |
 
-Leveling initial investment in BCP[^1] by flexible payment
+Achieve cost savings by replacing hardware redundancies with software.
+
+Achieve financial flexibility with flexible payment options for BCP[^1].
 
 - Hourly pay-per-use ($0.39)
-- 3 years(30% discount), annually(10% discount) or monthly subscription
+- 3 years (30% discount), annually (10% discount) or monthly subscription
 
-Flexible configuration
+Achieve flexible configurations.
 
 - Standby or Backup VM on cloud for on-premise production server.
 - Active and Standby VMs on cloud
 
 ## Qualifying questions
 
-- Do you have application/system on cloud without high-availability?
-- Do you have DR or Backup site on cloud for your on-premise critical IT system?
+- Do you have applications running in VMs on cloud without high-availability?
+- Do you have responsive DR or Backup site on cloud for your critical IT system?
 - Do you see big changes in your budget for BCP as a result of frequent equipment upgrades that occur every few years?
+- Do you have solution that cannot be down for more than 5 minutes?
 
 [^1]: Business Continuity Planning
