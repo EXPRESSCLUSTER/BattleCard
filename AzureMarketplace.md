@@ -6,11 +6,10 @@ This is specific to EC on Cloud. The general battle card is [General.md](General
 
 Achieve less downtime than cloud vendors offer.
 
-| ECX                           | 5 minutes (99.999% availability) |
-|:--                             |--                   |
-| Azure VM, AWS EC2             | 4.4 hours (99.95%)  |
-| Azure Site Recovery           | 2 hours (99.98%)    |
-| AWS Elastic Disaster Recovery | no guarantees       |
+| ECX                                                | 5 minutes (99.999% availability) |
+|:--                                                 |--                                |
+| Azure VM, AWS EC2                                  | 4.4 hours (99.95%)               |
+| Azure Site Recovery, AWS Elastic Disaster Recovery | 8.8 hours (99.9%)                |
 
 Achieve cost savings by replacing hardware redundancies with software.
 
